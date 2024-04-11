@@ -44,21 +44,10 @@ std::set<std::string> wordle(
 void floatHelp(std::set<std::string>& list, std::string word, std::string floats)
 {
   if(floats.length() == 0){
+    list.insert(word);
     return;
   }
-  
 
-  if(floats.length() == 1){
-    for(size_t i=0; i < word.length(); i++){
-      if(word[i] == '-'){
-        word[i] = floats[0];
-        list.insert(word);
-        word[i] = '-';
-      }
-    }
-    return;
-  }
-  
   for(size_t i=0; i < word.length(); i++){
     if(word[i] == '-'){
       word[i] = floats[0];
