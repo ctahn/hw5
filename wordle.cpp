@@ -1,12 +1,10 @@
 #ifndef RECCHECK
 #include <fstream>
-#include <map>
 #include <set>
 #endif
 
 #include "wordle.h"
 #include "dict-eng.h"
-#include <string>
 using namespace std;
 
 
