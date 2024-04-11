@@ -1,9 +1,5 @@
 #ifndef RECCHECK
-// For debugging
-
-// For std::remove
 #include <fstream>
-#include <algorithm> 
 #include <map>
 #include <set>
 #endif
